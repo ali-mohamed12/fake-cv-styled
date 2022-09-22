@@ -1,0 +1,132 @@
+body {
+    background-color: #A7D2CB;
+}
+
+h1 {
+    color: tomato;
+    font-family: Tahoma;
+}
+h3 {
+    color: orangered;
+    font-family: Tahoma;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: gray;
+    border-width: 5px;
+    width: 5%;
+}
+
+nav ul {
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+nav ul li a:hover {
+    background-color: orangered;
+    color: #EEE;
+    border-radius: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: tomato;
+    font-family: Tahoma;
+    padding: 10px;
+}
+.social a {
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: tomato;
+    color: #EEE;
+    font-family: Tahoma;
+}.social a:hover {
+    border-radius: 14px;
+}
+.social {
+    text-align: center;
+}
+
+form {
+    background-color: tomato;
+    color: white;
+    font-family: Tahoma;
+    font-size: large;
+    padding: 10px;
+    text-align: center;
+}
+form input {
+    background-color: orangered;
+    border: none;
+    color: white;
+    font-family: Tahoma;
+    padding: 10px;
+    width: 400px;
+    border-radius: 4px;
+    font-size: large;
+}
+form input::placeholder {
+    color: white;
+    font-family: Tahoma;
+    font-size: large;
+}
+form input:hover {
+    background-color: orange;
+}
+form input:focus {
+    background-color: orange;
+}
+form textarea {
+    background-color: orangered;
+    border: none;
+    color: white;
+    font-family: Tahoma;
+    font-size: large;
+    resize: none;
+    width: 25%;
+    height: 250px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+}form textarea:hover {
+    background-color: orange;
+}form textarea:focus {
+    background-color: orange;
+}
+form textarea::placeholder {
+    color: white;
+    font-family: Tahoma;
+}
+form button {
+    background-color: orangered;
+    border: none;
+    padding: 20px;
+    color: #FFF;
+    font-family: Tahoma;
+    font-size: large;
+    border-radius: 5px;
+    width: 400px;
+}form button:hover {
+    background-color: orange;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-track {
+    background-color: #dddddd;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(66, 116, 251);
+}
+::-webkit-calendar-picker-indicator {
+    background-color: #FFF;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
